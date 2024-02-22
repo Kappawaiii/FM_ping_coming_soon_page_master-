@@ -1,0 +1,42 @@
+#mainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logo svg {
+  width: 4rem;
+  height: 2rem;
+  overflow: visible;
+  margin-bottom: 1rem;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#banner h1,
+#banner h4 {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+}
+
+#addEmail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 4rem;
+}
+
+#graph {
+  width: 50rem;
+  height: 25rem;
+}
