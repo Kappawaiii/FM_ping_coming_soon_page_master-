@@ -1,8 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 #mainContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
 }
 
 #logo svg {
@@ -17,9 +23,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.99rem;
 }
-
+#banner span {
+  color: rgba(176, 176, 176, 100%);
+}
 #banner h1,
 #banner h4 {
   margin: 0;
@@ -31,12 +39,35 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  width: 15rem;
-  height: 4rem;
+  justify-content: space-between;
+  width: 28rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
 }
-
+#addEmail input,
+#addEmail button {
+  border-style: solid;
+  border-color: rgb(179, 202, 244);
+  border-radius: 30px;
+}
+#addEmail input {
+  width: 17.7rem;
+  height: 2rem;
+  border-width: 1px;
+}
+#addEmail input,
+#addEmail input::placeholder {
+  padding-left: 0.3rem;
+  color: rgb(179, 202, 244);
+}
+#addEmail button {
+  width: 9.4rem;
+  height: 2.4rem;
+  color: white;
+  background-color: rgb(76, 124, 244);
+  border-color: rgb(76, 124, 244);
+}
 #graph {
-  width: 50rem;
-  height: 25rem;
+  width: 30rem;
+  height: 20rem;
 }
