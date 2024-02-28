@@ -41,8 +41,10 @@
   align-items: center;
   justify-content: space-between;
   width: 28rem;
+  height: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 4rem;
+  row-gap: 0.3rem;
 }
 #addEmail input,
 #addEmail button {
@@ -52,17 +54,18 @@
 }
 #addEmail input {
   width: 17.7rem;
-  height: 2rem;
+  height: 100%;
   border-width: 1px;
 }
 #addEmail input,
 #addEmail input::placeholder {
-  padding-left: 0.3rem;
+  box-sizing: border-box;
+  text-indent: 0.7rem;
   color: rgb(179, 202, 244);
 }
 #addEmail button {
   width: 9.4rem;
-  height: 2.4rem;
+  height: 100%;
   color: white;
   background-color: rgb(76, 124, 244);
   border-color: rgb(76, 124, 244);
