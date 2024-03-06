@@ -70,6 +70,16 @@
   background-color: rgb(76, 124, 244);
   border-color: rgb(76, 124, 244);
 }
+#notify:hover {
+  cursor: pointer;
+  color: rgb(76, 124, 244);
+  background-color: white;
+}
+#notify:focus {
+  background-color: rgb(46, 204, 114);
+  border-color: rgb(46, 204, 114);
+  color: white;
+}
 #graph {
   width: 30rem;
   height: 20rem;
