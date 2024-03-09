@@ -51,9 +51,20 @@
         <h4>Subscribe and get notified</h4>
       </div>
       <div id="addEmail">
-        <input id="input" class="input" placeholder="Your email address.." />
-        <button id="notify" class="notify">Notify Me</button>
+        <div id="mainEmail">
+          <form>
+            <input
+              id="input"
+              class="input"
+              type="email"
+              placeholder="Your email address.."
+            />
+            <button id="notify" class="notify">Notify Me</button>
+          </form>
+        </div>
+        <div id="error"><span>Please provide a vaild email address</span></div>
       </div>
+
       <div id="graph">
         <image src="images/illustration-dashboard.png" id="graph"></image>
       </div>
