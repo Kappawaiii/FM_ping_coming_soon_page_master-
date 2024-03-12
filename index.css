@@ -52,6 +52,7 @@
 }
 #addEmail input,
 #addEmail button {
+  visibility: visible;
   border-style: solid;
   border-color: rgb(179, 202, 244);
   border-radius: 30px;
@@ -67,7 +68,8 @@
   text-indent: 0.7rem;
   color: rgb(179, 202, 244);
 }
-#addEmail button {
+#addEmail button,
+#notify {
   width: 9.4rem;
   height: 2rem;
   color: white;
@@ -79,13 +81,36 @@
   color: rgb(76, 124, 244);
   background-color: white;
 }
-/* #notify:focus {
+.notifyPass {
+  visibility: hidden;
+  width: 9.4rem;
+  height: 2rem;
+  color: white;
   background-color: rgb(46, 204, 114);
   border-color: rgb(46, 204, 114);
+}
+.pass {
+  visibility: visible;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgb(46, 204, 114);
+}
+.notifyError {
+  visibility: visible;
+  width: 9.4rem;
+  height: 2rem;
   color: white;
-} */
-#error {
-  display: none;
+  background-color: red;
+  border-color: red;
+}
+.error {
+  visibility: hidden;
+  border-color: red;
+  border-style: solid;
+  border-radius: 30px;
+}
+#errorMessage {
+  visibility: hidden;
   height: 0.7rem;
   font-size: 0.7rem;
   align-self: flex-start;
