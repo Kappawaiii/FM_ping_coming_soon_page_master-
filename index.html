@@ -56,13 +56,24 @@
             <input
               id="input"
               class="input"
+              class="pass"
+              class="error"
               type="email"
               placeholder="Your email address.."
             />
-            <button id="notify" class="notify">Notify Me</button>
+            <button
+              id="notify"
+              class="notify"
+              class="notifyError"
+              class="notifyPass"
+            >
+              Notify Me
+            </button>
           </form>
         </div>
-        <div id="error"><span>Please provide a vaild email address</span></div>
+        <div id="errorMessage">
+          <span>Please provide a vaild email address</span>
+        </div>
       </div>
 
       <div id="graph">
