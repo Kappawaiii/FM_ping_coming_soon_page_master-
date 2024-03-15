@@ -50,65 +50,38 @@
 #error {
   flex-direction: row;
 }
-#addEmail input,
-#addEmail button {
+.input,
+.notify {
   visibility: visible;
   border-style: solid;
   border-color: rgb(179, 202, 244);
   border-radius: 30px;
 }
-#addEmail input {
+.input {
   width: 18rem;
   height: 2rem;
   border-width: 1px;
 }
-#addEmail input,
-#addEmail input::placeholder {
+.input,
+.input::placeholder {
   box-sizing: border-box;
   text-indent: 0.7rem;
   color: rgb(179, 202, 244);
 }
-#addEmail button,
-#notify {
+
+.notify {
   width: 9.4rem;
   height: 2rem;
   color: white;
   background-color: rgb(76, 124, 244);
   border-color: rgb(76, 124, 244);
 }
-#notify:hover {
+.notify:hover {
   cursor: pointer;
   color: rgb(76, 124, 244);
   background-color: white;
 }
-.notifyPass {
-  visibility: hidden;
-  width: 9.4rem;
-  height: 2rem;
-  color: white;
-  background-color: rgb(46, 204, 114);
-  border-color: rgb(46, 204, 114);
-}
-.pass {
-  visibility: visible;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: rgb(46, 204, 114);
-}
-.notifyError {
-  visibility: visible;
-  width: 9.4rem;
-  height: 2rem;
-  color: white;
-  background-color: red;
-  border-color: red;
-}
-.error {
-  visibility: hidden;
-  border-color: red;
-  border-style: solid;
-  border-radius: 30px;
-}
+
 #errorMessage {
   visibility: hidden;
   height: 0.7rem;
