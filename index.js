@@ -14,7 +14,6 @@ button.onclick = function () {
       email.includes(".gov")
     ) {
       input.style.borderColor = "rgb(46, 204, 114)";
-      input.style.backgroundColor = "rgb(126, 214, 164)";
       button.style.borderColor = "rgb(46, 204, 114)";
       button.style.backgroundColor = "rgb(46, 204, 114)";
       button.style.color = "white";
@@ -22,7 +21,6 @@ button.onclick = function () {
   } else {
     console.log("fail");
     input.style.borderColor = "red";
-    input.style.backgroundColor = "rgb(232, 103, 103)";
     button.style.borderColor = "red";
     button.style.backgroundColor = "red";
     button.style.color = "white";
